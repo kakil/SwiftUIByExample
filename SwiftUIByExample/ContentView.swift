@@ -10,9 +10,13 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("SwiftUI")
-            Text("Rocks")
+        ZStack {
+            Image("Charter Jet")
+            Text("Hacking With Swift")
+                .font(.largeTitle)
+                .background(Color.black)
+                .foregroundColor(.white)
+            
         }
     }
 }
